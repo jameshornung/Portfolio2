@@ -1,0 +1,534 @@
+#container{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/hexellence.png);
+	overflow: auto;
+}
+
+#top{
+	height: 100px;
+	width: 100%;
+	background: #ffffff;
+}
+
+#top-content{
+	width: 960px;
+	margin: 0 auto;
+	height: 100px;
+}
+
+#name{
+	float: left;
+	border: 1px solid #cccccc;
+	background-color: #4aaaa5;
+	width: 30%;
+	height: 88px;
+	color: #ffffff;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	padding-top: 10px;
+	text-align: center;
+}
+
+#links{
+	float: left;
+	height: 100px;
+	width: 69%;
+	text-align: right;
+	line-height: 100px;
+}
+
+.header-links{
+	padding: 10px;
+	font-family: Arial,"Helvetica Neue", Helvetica, sans-serif;
+	color: #777777;
+	text-decoration: none;
+}
+
+#wrapper{
+	width: 960px;
+	margin: 0 auto;
+	overflow: auto;
+	padding-top: 20px;
+	margin-bottom: 100px;
+}
+
+#main{
+	border: 1px solid #dddddd;
+	width: 628px;
+	float: left;
+	background: #ffffff;
+	padding: 10px;
+}
+
+#main-header{
+	font-family: Georgia, Times, "Times New Roman", serif;
+	color: #4aaaa5;
+	border-bottom: 1px solid #777777;
+}
+
+#main-content{
+	padding-top: 10px;
+	font-family: Arial,"Helvetica Neue", Helvetica, sans-serif;
+	color: #777777;
+}
+
+#headshot{
+	height: 158px;
+	float: left;
+	padding-right: 10px;
+}
+
+
+.bio-content{
+	font-family: Arial,"Helvetica Neue", Helvetica, sans-serif;
+	color: #777777;
+	margin-top: 0;
+}
+
+#connect-with-me{
+	border: 1px solid #dddddd;
+	width: 248px;
+	float: right;
+	background: #ffffff;
+	padding: 10px;
+}
+
+#connect{
+	font-family: Georgia, Times, "Times New Roman", serif;
+	color: #4aaaa5;
+	border-bottom: 1px solid #777777;
+}
+
+#logo-container{
+	width: 100%;
+	padding-top: 10px;
+	padding-left: 34px;
+}
+
+.logos{
+	width: 50px;
+}
+
+.logo-links{
+	padding-right: 10px;
+	
+}
+
+#contact-form{
+	padding: 10px;
+}
+
+.input-box{
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+#message{
+	width: 100%;
+	height: 200px;
+	overflow: scroll;
+}
+
+.contact-prompts{
+	margin-bottom: 0;
+}
+
+.portfolio-pics{
+	width: 270px;
+}
+
+#submit-button{
+	width: 100px;
+	height: 25px;
+	margin-top: 10px;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	background: #4aaaa5;
+	color: white;
+
+}
+
+.portfolio-links{
+	display: block;
+}
+
+#hangman{
+	width: 270px;
+	float: left;
+	height: 135px;
+	margin-bottom: 40px;
+	margin-left: 20px;
+	margin-top: 30px;
+}
+
+#rpg{
+	width: 270px;
+	float: right;
+	height: 135px;
+	margin-bottom: 40px;
+	margin-right: 20px;
+	margin-top: 30px;
+}
+
+#trivia{
+	width: 270px;
+	float: left;
+	height: 135px;
+	margin-bottom: 40px;
+	margin-left: 20px;
+}
+
+#rutgers{
+	width: 270px;
+	float: right;
+	height: 135px;
+	margin-bottom: 40px;
+	margin-right: 20px;
+}
+
+#rock{
+	width: 270px;
+	float: left;
+	height: 135px;
+	margin-bottom: 40px;
+	margin-left: 20px;
+}
+
+#hang{
+	position: relative;
+	bottom: 80px;
+	width: 270px;
+	height: 40px;
+	background: #4aaaa5;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+}
+
+#game{
+	position: relative;
+	bottom: 80px;
+	width: 270px;
+	height: 40px;
+	background: #4aaaa5;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+}
+
+#trivia-game{
+	position: relative;
+	bottom: 80px;
+	width: 270px;
+	height: 40px;
+	background: #4aaaa5;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+}
+
+#info-widget{
+	position: relative;
+	bottom: 80px;
+	width: 270px;
+	height: 40px;
+	background: #4aaaa5;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+}
+
+#rock-paper{
+	position: relative;
+	bottom: 80px;
+	width: 270px;
+	height: 40px;
+	background: #4aaaa5;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+}
+
+#foot{
+	width: 100%;
+	height:100px;
+	border-top: 10px solid #4aaaa5;
+}
+
+footer{
+	line-height: 100px;
+	text-align: center;
+	font-family: Arial,"Helvetica Neue", Helvetica, sans-serif;
+	color: white;
+	background: #666666;
+	color: #ffffff;
+}
+
+a{
+	text-decoration: none;
+}
+
+@media screen and (max-width: 980px){
+	#container{
+		
+	}
+}
+
+@media screen and (max-width: 768px){
+
+	#wrapper{
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		box-sizing: border-box;
+		margin-bottom: 230px;
+	}
+
+	#top-content{
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		box-sizing: border-box;
+	}
+
+	#main{
+		width: 100%;
+		margin-bottom: 10px;
+		float: none;
+		box-sizing: border-box;
+		overflow: auto;
+	}
+
+	#connect-with-me{
+		width: 100%;
+		float: none;
+		box-sizing: border-box;
+	}
+
+	#links{
+		float: right;
+	}
+
+	#logo-container{
+		padding-left: 0px;
+	}
+
+	#name{
+		font-size: 11px;
+	}
+
+	h1{
+		padding-top: 11px;
+	}
+
+	#main-content{
+		box-sizing: border-box;
+		overflow: auto;
+	}
+
+	.portfolio-links{
+		width: 100%;
+		color: #ffffff;
+		font-family: Georgia, Times, "Times New Roman", serif;
+		text-decoration: none;
+	}
+
+	.portfolio-pics{
+		width: 100%;
+	}
+
+	#hangman{
+		width: 80%;
+		margin-left: 10%;
+		float: none;
+		margin-top: 10px;
+		text-decoration: none;
+		height: initial;
+		margin-bottom: initial;
+	}
+
+	#rpg{
+		width: 80%;
+		margin-left: 10%;
+		float: none;
+		margin-top: 10px;
+		text-decoration: none;
+		height: initial;
+		margin-bottom: initial;
+	}
+
+	#trivia{
+		width: 80%;
+		margin-left: 10%;
+		float: none;
+		margin-top: 10px;
+		text-decoration: none;
+		height: initial;
+		margin-bottom: initial;
+	}
+
+	#rutgers{
+		width: 80%;
+		margin-left: 10%;
+		float: none;
+		margin-top: 10px;
+		text-decoration: none;
+		height: initial;
+		margin-bottom: initial;
+	}
+
+	#rock{
+		width: 80%;
+		margin-left: 10%;
+		float: none;
+		margin-top: 10px;
+		text-decoration: none;
+		height: initial;
+		margin-bottom: initial;
+	}
+
+	#hang{
+		width: 100%;
+	}
+
+	#game{
+		width: 100%;
+	}
+
+	#trivia-game{
+		width: 100%;
+	}
+
+	#info-widget{
+		width: 100%;
+	}
+
+	#rock-paper{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 640px){
+	#wrapper{
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		box-sizing: border-box;
+		margin-bottom: 70px;
+	}
+
+	#top-content{
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		box-sizing: border-box;
+	}
+
+	#main{
+		width: 80%;
+		margin-left: 10%;
+		margin-bottom: 10px;
+		float: none;
+		box-sizing: border-box;
+		overflow: auto;
+	}
+
+	#connect-with-me{
+		width: 80%;
+		float: none;
+		box-sizing: border-box;
+		margin-left: 10%;
+	}
+
+	#links{
+		display: flex;
+		justify-content: space-between;
+		line-height: 25px;
+		height: 25px;
+		float: left;
+		width:80%;
+		text-align: center;
+		margin-left: 10%;
+	}
+
+	#logo-container{
+		padding-left: 0px;
+	}
+
+	#name{
+		width: 100%;
+		font-size: 11px;
+	}
+
+	h1{
+		padding-top: 11px;
+	}
+
+	#headshot{
+		height: initial;
+		width: 80%;
+		padding-left: 10%;
+		padding-bottom: 10px;
+	}
+
+	#main-content{
+		box-sizing: border-box;
+		overflow: auto;
+	}
+
+	.portfolio-links{
+		width: 100%;
+	}
+
+
+	#hangman{
+		width: 80%;
+		margin-left: 10%;
+		float: none;
+		padding-top: 10px;
+		text-decoration: none;
+		overflow: auto;
+
+	}
+
+	#rpg{
+		width: 80%;
+		margin-left: 10%;
+		float: none;
+		padding-top: 10px;
+		text-decoration: none;
+	}
+
+	#trivia{
+		width: 80%;
+		margin-left: 10%;
+		float: none;
+		padding-top: 10px;
+		text-decoration: none;
+	}
+
+	#rutgers{
+		width: 80%;
+		margin-left: 10%;
+		float: none;
+		padding-top: 10px;
+		text-decoration: none;
+	}
+
+	#rock{
+		width: 80%;
+		margin-left: 10%;
+		float: none;
+		padding-top: 10px;
+		text-decoration: none;
+	}
+
+
+
+	
+	
+}
+
+
+
